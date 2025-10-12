@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bana Ulaşın - Yapay Zeka Notları</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Yapay Zeka Notları</a></h1>
+        <nav>
+                 <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hakkimda.html">Hakkımda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="bana-ulas.html">Bana ulaşın</a></li>
+        </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <article class="yazi-detay">
+            <h2>Bana Ulaşın</h2>
+            <p>Sorularınız, geri bildirimleriniz veya işbirliği teklifleriniz için aşağıdaki formu kullanabilirsiniz. En kısa sürede size geri dönüş yapacağım.</p>
+            
+            <form action="https://formspree.io/f/mrbyynyq" method="POST">
+                <label for="ad">Adınız:</label>
+                <input type="text" id="ad" name="ad" required>
+                
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mesaj">Mesajınız:</label>
+                <textarea id="mesaj" name="mesaj" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Yapay Zeka Notları</p>
+    </footer>
+</body>
+</html>
